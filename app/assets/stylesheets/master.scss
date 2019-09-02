@@ -1,0 +1,60 @@
+@import "bootstrap";
+
+body {
+  font-family: 'Merriweather', serif, "Helvetica Neue", Helvetica, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.navbar {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 400;
+}
+a.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+.hero {
+  background: image_url('hero.jpg') no-repeat top left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 470px;
+  color: white;
+}
+.hero h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  margin-top: 100px
+}
+.hero h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+.btn {
+  border-radius: 0;
+}
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+}
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+.clr {
+  clear:both;
+}
