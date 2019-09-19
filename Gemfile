@@ -20,6 +20,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 gem 'simple_form'
+gem 'figaro'
+gem 'fog-aws'
 gem 'devise'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes

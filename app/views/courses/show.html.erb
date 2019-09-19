@@ -3,7 +3,7 @@
 <div class="booyah-box col-10 offset-1">
 	<h1><%= @course.title %></h1>
 	<br />
-	<%= image_tag @course.image, class: 'img-fluid' %>
+	<%= image_tag @course.image.to_s, class: 'img-fluid' %>
 	<br />
 	<div class="text-center">
 		<%= link_to 'Add a New Section', new_instructor_course_section_path(@course), class: 'btn btn-primary btn-lg' %>
