@@ -25,6 +25,7 @@ gem 'fog-aws'
 gem 'devise'
 gem 'uglifier', '>= 1.3.0'
 gem 'carrierwave-aws'
+gem 'mini_magick'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
