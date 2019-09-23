@@ -21,6 +21,7 @@ source 'https://rails-assets.org' do
 end
 gem 'simple_form'
 gem 'figaro'
+gem 'ranked-model'
 gem 'fog-aws'
 gem 'devise'
 gem 'uglifier', '>= 1.3.0'
