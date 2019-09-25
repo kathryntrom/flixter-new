@@ -30,6 +30,7 @@ gem 'mini_magick'
 gem 'carrierwave-aws'
 gem 'jquery-ui-rails'
 gem 'stripe'
+gem 'font-awesome-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
