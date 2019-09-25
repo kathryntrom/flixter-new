@@ -28,6 +28,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'carrierwave-aws'
 gem 'mini_magick'
 gem 'carrierwave-aws'
+gem 'jquery-ui-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
